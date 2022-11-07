@@ -1,7 +1,18 @@
 # electron-digital-art-app
 ## Get started
+### Prepare .env file
+```
+cp .env.example .env
+```
+Set value to `API_URL` in `.env` file.
+
+### Install dependencies
 ```
 yarn install
+```
+
+### Run the app
+```
 yarn dev
 ```
 
